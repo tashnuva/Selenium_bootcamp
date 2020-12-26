@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parameterization Test Suite">
+	<test name="Testing Parameterization">
+	<parameter name="email" value="tasnuva@yahoo.com"/>
+	<parameter name="password" value="testpassword"/>
+	<parameter name="zipcode" value="20876"/>
+	<parameter name="phoneno" value="1231231234"/>
+		<classes>
+			<class name="bootcamp.homedepot" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Funcion" parallel="test" thred-counts="5">
+<test name="Adhoc">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="URI" value="https://www.facebook.com"></parameter>
+<classes>
+<class name="Run.Functions"></class>
+<class name="Run.NewFunctionAcount"></class>
+</classes>
+</test>
+
+<test name="Different">
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="URI" value="https://www.facebook.com"></parameter>
+<classes>
+<class name="Run.Functions"></class>
+<class name="Run.NewFunctionAcount"></class>
+</classes>
+</test>
+</suite>
